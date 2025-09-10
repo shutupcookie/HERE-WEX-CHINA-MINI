@@ -140,3 +140,34 @@ a:hover {
     margin-left: 0;
   }
 }
+.contact-form {
+  display: flex;
+  flex-direction: column;
+  gap: 1.2rem;
+}
+
+.contact-form label {
+  font-weight: 500;
+  color: #243746;
+  margin-bottom: 0.3rem;
+  display: flex;
+  flex-direction: column;
+  gap: 0.3rem;
+}
+
+.contact-form input,
+.contact-form textarea {
+  padding: 0.8rem;
+  border-radius: 0.8rem;
+  border: 1px solid #e1e5ea;
+  font-size: 1rem;
+  background: #f8fbfb;
+  color: #243746;
+  outline: none;
+  transition: border 0.2s;
+}
+
+.contact-form input:focus,
+.contact-form textarea:focus {
+  border-color: #6CF6F3;
+}
